@@ -1,16 +1,10 @@
 def main():
-    """
-    ##################################################
-    # Comlete your code here
-    Use the same variables: celsius fahrenheit 
-    ##################################################
-    """
+    
+    celsius = int(input('The temperature in celsius is ')) 
+    fahrenheit = (9/5) * celsius + 32
 
-    """
-    ########################################
-    # Do not delete the return statement
-    ########################################
-    """
+    print(f'The temperature in fahrenheit is \t{fahrenheit: .2f}')
+    
     return celsius, fahrenheit
 
 
